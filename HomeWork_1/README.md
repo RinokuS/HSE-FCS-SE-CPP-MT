@@ -77,3 +77,10 @@
 Прверим большие значения (к сожалению на скрине поместится лишь часть данных):<br>
 <img src="https://github.com/RinokuS/HSE-FCS-SE-CPP-MT/blob/main/HomeWork_1/pictures/big.png" alt="" width="700" /> <br><br>
 Программа отработала успешно <br><br>
+
+## Источники информации
+1. Информация о mutex, lock_guard, thread: https://en.cppreference.com <br>
+2. Информация о mutex с примерами: http://scrutator.me/post/2012/04/04/parallel-world-p1.aspx <br>
+3. Примеры многопоточных конвейеров на C++: https://towardsdatascience.com/how-to-build-a-multi-threaded-pipeline-in-c-with-std-async-78edc19e862d <br>
+4. Вопросы по многопоточным конвейерам на С++: https://www.cyberforum.ru/cpp-beginners <br>
+5. Возможные реализации парадигмы «производитель-потребитель»: Лекции дисциплины Архитектура вычислительных систем НИУ ВШЭ. <br>
