@@ -1,6 +1,6 @@
 # Соколовский Вацлав, БПИ191
 ## Вариант 23
-[В данной папке](https://github.com/RinokuS/HSE-FCS-SE-CPP-MT/tree/main/HomeWork_1) представлено выполнение первой домашней работы по работе с потоками на C++. Исходники лежат в [HomeWork_1/src/](https://github.com/RinokuS/HSE-FCS-SE-CPP-MT/tree/main/HomeWork_1/src), а скриншоты в [HomeWork_1/pictures/](https://github.com/RinokuS/HSE-FCS-SE-CPP-MT/tree/main/HomeWork_2/pictures) <br>
+[В данной папке](https://github.com/RinokuS/HSE-FCS-SE-CPP-MT/tree/main/HomeWork_1) представлено выполнение первой домашней работы по работе с потоками на C++. Исходники лежат в [HomeWork_1/src/](https://github.com/RinokuS/HSE-FCS-SE-CPP-MT/tree/main/HomeWork_1/src), а скриншоты в [HomeWork_1/pictures/](https://github.com/RinokuS/HSE-FCS-SE-CPP-MT/tree/main/HomeWork_1/pictures) <br>
 Код запускался из консоли с использованием команд:
 
 	clang++ -std=c++17 main.cpp -o main
