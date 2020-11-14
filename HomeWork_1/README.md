@@ -3,8 +3,8 @@
 [В данной папке](https://github.com/RinokuS/HSE-FCS-SE-CPP-MT/tree/main/HomeWork_1) представлено выполнение первой домашней работы по работе с потоками на C++. Исходники лежат в [HomeWork_1/src/](https://github.com/RinokuS/HSE-FCS-SE-CPP-MT/tree/main/HomeWork_1/src), а скриншоты в [HomeWork_1/pictures/](https://github.com/RinokuS/HSE-FCS-SE-CPP-MT/tree/main/HomeWork_2/pictures) <br>
 Код запускался из консоли с использованием команд:
 
-	clang++ -std=c++17 main.cpp
-    ./a.out
+	clang++ -std=c++17 main.cpp -o main
+    ./main
 
 ## Условие
 ### Первая военная задача. 
@@ -16,6 +16,7 @@
 
 ## Код программы
 [Исходный код](https://github.com/RinokuS/HSE-FCS-SE-CPP-MT/tree/main/HomeWork_1/src/main.cpp)<br>
+[Собственный профайлер](https://github.com/RinokuS/HSE-FCS-SE-CPP-MT/tree/main/HomeWork_1/src/profile.h)
 
 Программа работает по модели конвейера: <br>
 Иванов вытаскивает инвентарь со склада по одному элементу, Нечепорчук ожидает его и подсчитывает стоимость вынесенного объекта отправляя его на загрузку и освобождая место для нового объекта со склада, Петров ожидает Нечепорчука и загружает в грузовик уже подсчитанные объекты, освобождая место для нового. <br>
@@ -58,28 +59,21 @@
 
 <img src="https://github.com/RinokuS/HSE-FCS-SE-CPP-MT/blob/main/HomeWork_1/pictures/load.png" alt="" width="700" /> <br><br>
 
+- **profile**<br>
+Также для был написан собственный профайлер для удобства подсчета времени выполнения блоков кода.
+
+<img src="https://github.com/RinokuS/HSE-FCS-SE-CPP-MT/blob/main/HomeWork_1/pictures/profile.png" alt="" width="700" /> <br><br>
+
 ## Тестирование программы
 - **Тест 1**<br>
-Для начала проверим ввод размера массива на отрицательные числа и ноль:<br>
-<img src="https://github.com/RinokuS/HSE-FCS-SE-NASM/blob/main/HomeWork_2/pictures/Test1.png" alt="" width="700" /> <br>
+Для начала проверим примитивные варианты, то бишь количество элементов отрицательно, равно нулю и равно единице:<br>
+<img src="https://github.com/RinokuS/HSE-FCS-SE-CPP-MT/blob/main/HomeWork_1/pictures/primitive.png" alt="" width="700" /> <br><br>
 Программа отработала успешно <br><br>
 - **Тест 2**<br>
-Введем массив из чередующихся чисел 1 и -1, тогда все элементы нового должны обнулиться:<br>
-<img src="https://github.com/RinokuS/HSE-FCS-SE-NASM/blob/main/HomeWork_2/pictures/Test2.png" alt="" width="700" /> <br>
-Программа отработала успешно (также значит, что корректно обрабатываются отрицательные числа) <br><br>
+Проведем обычный тест на 10 элементах:<br>
+<img src="https://github.com/RinokuS/HSE-FCS-SE-CPP-MT/blob/main/HomeWork_1/pictures/normal.png" alt="" width="700" /> <br><br>
+Программа отработала успешно <br><br>
 - **Тест 3**<br>
-Введем массив из случайно разбросанных чисел и проверим корректность выполнения задания:<br>
-<img src="https://github.com/RinokuS/HSE-FCS-SE-NASM/blob/master/HomeWork_2/pictures/Test3.png" alt="" width="700" /> <br>
+Прверим большие значения (к сожалению на скрине поместится лишь часть данных):<br>
+<img src="https://github.com/RinokuS/HSE-FCS-SE-CPP-MT/blob/main/HomeWork_1/pictures/big.png" alt="" width="700" /> <br><br>
 Программа отработала успешно <br><br>
-- **Тест 4**<br>
-Введем массив, содержащий большие числа, и проверим корректность работы:<br>
-<img src="https://github.com/RinokuS/HSE-FCS-SE-NASM/blob/master/HomeWork_2/pictures/Test4.png" alt="" width="700" /> <br>
-Программа отработала успешно <br><br>
-- **Тест 5**<br>
-Введем большой массив и проверим корректность выполнения программы:<br>
-<img src="https://github.com/RinokuS/HSE-FCS-SE-NASM/blob/master/HomeWork_2/pictures/Test5.png" alt="" width="700" /> <br>
-Программа отработала успешно <br><br>
-- **Тест 6**<br>
-Последняя маленькая проверка на чередование по 2:<br>
-<img src="https://github.com/RinokuS/HSE-FCS-SE-NASM/blob/master/HomeWork_2/pictures/%20Test6.png" alt="" width="700" /> <br>
-Программа отработала должным образом
