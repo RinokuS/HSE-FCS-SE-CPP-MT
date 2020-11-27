@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/rinokus/Documents/Projects/HSE-FCS-SE-CPP-MT/HomeWork_2/src/main.cpp
+iostream
+-
+vector
+-
+optional
+-
+random
+-
+omp.h
+-
+profile.h
+/Users/rinokus/Documents/Projects/HSE-FCS-SE-CPP-MT/HomeWork_2/src/profile.h
+
+/Users/rinokus/Documents/Projects/HSE-FCS-SE-CPP-MT/HomeWork_2/src/profile.h
+chrono
+-
+iostream
+-
+string
+-
+
