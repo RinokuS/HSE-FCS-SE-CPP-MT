@@ -1,6 +1,6 @@
 # Соколовский Вацлав, БПИ191
 ## Вариант 23
-[В данной папке](https://github.com/RinokuS/HSE-FCS-SE-CPP-MT/tree/main/HomeWork_2) представлено выполнение первой домашней работы по работе с потоками на C++. Исходники лежат в [HomeWork_2/src/](https://github.com/RinokuS/HSE-FCS-SE-CPP-MT/tree/main/HomeWork_2/src), а скриншоты в [HomeWork_2/pictures/](https://github.com/RinokuS/HSE-FCS-SE-CPP-MT/tree/main/HomeWork_2/pictures) <br>
+[В данной папке](https://github.com/RinokuS/HSE-FCS-SE-CPP-MT/tree/main/HomeWork_2) представлено выполнение второй домашней работы по работе с потоками на C++ (с использованием OpenMP). Исходники лежат в [HomeWork_2/src/](https://github.com/RinokuS/HSE-FCS-SE-CPP-MT/tree/main/HomeWork_2/src), а скриншоты в [HomeWork_2/pictures/](https://github.com/RinokuS/HSE-FCS-SE-CPP-MT/tree/main/HomeWork_2/pictures) <br>
 Код запускался из консоли с использованием команд:
 
 	clang++ -std=c++17 -Xpreprocessor -fopenmp main.cpp -o main -lomp
