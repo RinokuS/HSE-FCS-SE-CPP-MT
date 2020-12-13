@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/rinokus/Documents/Projects/HSE-FCS-SE-CPP-MT/MicroProject_2/src/main.cpp
+iostream
+-
+thread
+-
+mutex
+-
+random
+-
+condition_variable
+-
+vector
+-
+queue
+-
+
