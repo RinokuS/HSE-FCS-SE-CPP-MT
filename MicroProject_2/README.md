@@ -1,5 +1,6 @@
 # Соколовский Вацлав, БПИ191
-Основаня информация о работе представлена в [Пояснительной записке](https://github.com/RinokuS/HSE-FCS-SE-CPP-MT/tree/main/MicroProject_2/PZ.pdf)
+## Вариант 1 (Задача о парикмахере)
+Основная информация о работе представлена в [Пояснительной записке](https://github.com/RinokuS/HSE-FCS-SE-CPP-MT/tree/main/MicroProject_2/PZ.pdf)
 
 В [данной папке](https://github.com/RinokuS/HSE-FCS-SE-CPP-MT/tree/main/MicroProject_2) представлено выполнение второго микропроекта на языке С++. Исходники лежат в [MicroProject_2/src/](https://github.com/RinokuS/HSE-FCS-SE-CPP-MT/tree/main/MicroProject_2/src), а скриншоты в [MicroProject_2/pictures/](https://github.com/RinokuS/HSE-FCS-SE-CPP-MT/tree/main/MicroProject_2/pictures)
 
